@@ -1,5 +1,5 @@
 /**
- * 
+ * Classe che permette di contare il numero di caratteri 
  */
 package it.uiip.esercitazione1.esercizio3;
 
@@ -46,6 +46,7 @@ public class FileCounter {
 				br.close();
 			}
 		}
+
 		System.out.format("Il file contiene %d righe, %d parole e %d caratteri.", countLine, countWords, totalCharacters);
 	}
 }
